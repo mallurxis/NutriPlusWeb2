@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+body{
+    background-color: #e7f0dc;
+}
+.cabecalho{
+    color:  #009140;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+a{
+    text-decoration: none;
+    color: #009140;
+   
+ 
+}
+a:hover{
+    opacity: .5;
+       
+}
+ 
+ 
+.imgNutri{
+    display: flex;
+ 
+   
+}
+ 
+.navHeader{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.2rem;
+   
+   
+   
+}
+
+.txtPagina2{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding-left: 5rem;
+    justify-content: space-between; 
+}
+
+.section--central{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding-left: 5rem;
+    justify-content: space-between;
+   
+ 
+}
+.imgCelular{
+   width: 60rem;
+   height: 40rem;
+ 
+}
+.section--img{
+    margin-top: 3rem;
+    display: flex;
+   align-items: end
+ 
+}
+.section--texto{
+    margin-top: 7rem;
+}
+ 
+.txtPrincipal{
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+.txtPrincipal2{
+    font-family: "Lilita One", sans-serif;
+    display: flex;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-top: 3rem;
+    color: black;
+    justify-content: center;  
+    text-align: center;
+}
+ 
+.txtSecundario{
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+ 
+.card-body{
+    background-color: #009140;
+}
+
+.txtPagina2{
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.saibaMais{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.cards{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    margin: 3rem;
+}
+
+.card1{
+    width: 25rem;  
+    height: 25rem;
+
+}
+
+.card2{
+    width: 25rem;  
+    height: 25rem;
+}
+
+.card3{
+    width: 25rem;  
+    height: 25rem;
+}
+
+.card4{
+    width: 25rem;  
+    height: 25rem;
+}
